@@ -1,0 +1,26 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="Statement_Reader.MainWindow"
+        mc:Ignorable="d"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="Statement Reader" Height="426.892" Width="777.282">
+    <Grid Margin="0,0,2,0">
+        <Button x:Name="BtnStart" Content="Start" HorizontalAlignment="Right" Margin="0,0,16,10" Width="75" Click="StartButton_Click" Height="20" VerticalAlignment="Bottom"/>
+        <Label  Content="Input folder" HorizontalAlignment="Left" Margin="6,4,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="InputFolderTextBox" Height="20" Margin="10,26,41,0" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="InputFolderTextBox_TextChanged"/>
+        <Button x:Name="BtnSelectInputFolder" Content="..." Margin="0,26,16,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="20" Click="SelectInputFolderButton_Click"/>
+        <TextBox x:Name="LogTextBox" Margin="10,125,100,10" TextWrapping="Wrap" IsReadOnly="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" AcceptsReturn="True" Background="#FFE2E2E2"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="65,55,0,0" TextWrapping="Wrap" Text="Type:" VerticalAlignment="Top"/>
+        <ComboBox x:Name="StatementTypeComboBox" HorizontalAlignment="Left" Margin="97,54,0,0" VerticalAlignment="Top" Width="164"/>
+        <CheckBox x:Name="GeneratePdfTextFilesCheckBox" Content="Generate PDF interim text files" HorizontalAlignment="Left" Margin="303,55,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,109,0,0" TextWrapping="Wrap" Text="Log" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="11,90,0,0" TextWrapping="Wrap" Text="Collection Year:" VerticalAlignment="Top"/>
+
+        <telerik:RadMaskedNumericInput x:Name="Year" HorizontalAlignment="Left" Margin="97,87,0,0" VerticalAlignment="Top" Mask="####" InputBehavior="Insert" SelectionOnFocus="SelectAll" ValueChanged="Year_ValueChanged" AutoFillNumberGroupSeparators="False" AutoFillZeros="True" FormatString="0000"/>
+
+    </Grid>
+</Window>

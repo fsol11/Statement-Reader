@@ -1,0 +1,21 @@
+﻿Restaurant,StartsWith,SECOND CUP
+Restaurant,StartsWith,STARBUCKS
+Restaurant,StartsWith,Z-TECA
+Restaurant,StartsWith,JIMMY THE GREEK
+Restaurant,StartsWith,MCDONALD'S
+Restaurant,StartsWith,TIM HORTONS
+Restaurant,StartsWith,CHIPOTLE
+Restaurant,StartsWith,DRUXY'S
+Restaurant,StartsWith,MEVAME
+Restaurant,StartsWith,FRANKIE TOMATTO'S
+Restaurant,StartsWith,PHO-MI
+Restaurant,StartsWith,AMAYA EXPRESS
+Restaurant,StartsWith,THAI EXPRESS
+Restaurant,StartsWith,EARLS
+
+Auto,StartsWith,TORONTO PARKING AUTHORITY
+
+Cell Phone,Contains,FIDO
+Cell Phone,Contains,CHATR
+
+Cell Phone,StartsWith,WIND

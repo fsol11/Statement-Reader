@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statement Reader", "Statement Reader\Statement Reader.csproj", "{4215300F-CC07-49F4-A2A7-641329CB1138}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iTextSharp", "iTextSharp", "{BCBE6F4B-9948-4118-8F26-314313AD4B9D}"
+	ProjectSection(SolutionItems) = preProject
+		Statement Reader\iTextSharp\itextsharp.dll = Statement Reader\iTextSharp\itextsharp.dll
+		Statement Reader\iTextSharp\itextsharp.pdfa.dll = Statement Reader\iTextSharp\itextsharp.pdfa.dll
+		Statement Reader\iTextSharp\iTextSharp.xml = Statement Reader\iTextSharp\iTextSharp.xml
+		Statement Reader\iTextSharp\itextsharp.xtra.dll = Statement Reader\iTextSharp\itextsharp.xtra.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4215300F-CC07-49F4-A2A7-641329CB1138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4215300F-CC07-49F4-A2A7-641329CB1138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4215300F-CC07-49F4-A2A7-641329CB1138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4215300F-CC07-49F4-A2A7-641329CB1138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lotra.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = Bill\u0020Reader\\Statement\u0020Reader.csproj
+		SccProjectName0 = Bill\u0020Reader
+		SccLocalPath0 = Bill\u0020Reader
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal
